@@ -1,0 +1,8 @@
+name: building gitflow
+on: [push]
+jobs:
+  check1:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "hello"
+  
